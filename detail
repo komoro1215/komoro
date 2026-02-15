@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>アプリ紹介（詳細）</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<main>
+
+<section>
+
+<h2 class="c bg1">特訓英語中１マスター！</h2>
+
+<div class="list-grid">
+
+<div class="list up">
+<figure><img src="p21.jpg" alt=""></figure>
+<div class="text">
+<h4>ステップ１</h4>
+<p>文章の単語がランダムに並んでいます。パズル形式で単語をいろいろ並べ替えて文章を完成させましょう。</p>
+</div>
+</div>
+
+<div class="list up">
+<figure><img src="images/p22.jpg" alt=""></figure>
+<div class="text">
+<h4>単語学習ルーム</h4>
+<p>中学１年生レベルの500個以上の単語がゲーム感覚で出題されます。また、自分で新たな単語を増やす事もできます。</p>
+</div>
+</div>
+
+<div class="list up">
+<figure><img src="images/p23.jpg" alt=""></figure>
+<div class="text">
+<h4>虎の巻ルーム</h4>
+<p>虎の巻ルームでは各ジャンル毎に文章の組み立て方や用語の特徴、使い方、意味などが細かくわかりやすく説明しています！</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<span class="pr"><a href="" target="_blank">《App Introduction》</a></span>
+
+</div>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="jquery.inview_set.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="main.js"></script>
+
+</body>
+</html>
